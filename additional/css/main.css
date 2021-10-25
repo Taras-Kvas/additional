@@ -1,0 +1,232 @@
+.body {
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+.header {
+    background: #0c0c3f;
+    height: 550px;
+}
+.header__top {
+    background: silver;
+    height: 100px;
+}
+.header__top_grid {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+.header__logo {
+    width: 150px;
+    height: 50px;
+    background: #0c0c3f;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+.menu__item {
+    background: mediumpurple;
+    height: 5px;
+    width: 40px;
+    margin-bottom: 10px;
+}
+.header__main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: mediumpurple;
+    margin-top: 60px;
+}
+.header__text {
+    width: 80%;
+    line-height: 25px;
+    text-align: center;
+}
+.header__main button {
+    width: 300px;
+    border-radius: 50px;
+    background: mediumpurple;
+    height: 50px;
+    cursor: pointer;
+    transition: background-color .5s;
+    border: none;
+}
+.header__main button:hover {
+    background: #fffacb;
+}
+.content__blocks {
+    width: 240px;
+    height: 200px;
+    background: mediumpurple;
+    border-radius: 15px;
+}
+.content {
+    background: silver;
+    height: 800px;
+}
+.main__content {
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+    position: relative;
+    bottom: 90px;
+}
+.products__title {
+    text-align:center;
+    text-transform: uppercase;
+}
+.product__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 25px;
+}
+.product__item {
+    background: mediumpurple;
+    width: 250px;
+    height: 150px;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+.description {
+    display: flex;
+    justify-content: center;
+    column-gap: 70px;
+}
+.description {
+    display: flex;
+    margin-right: 40px;
+    column-gap: 100px;
+}
+.lower__content {
+    background: silver;
+    height: 1600px;
+}
+.title_item {
+    text-align: center;
+    text-transform:uppercase;
+}
+.content__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.items__up, .item__low {
+    display: flex;
+    column-gap: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    padding: 0 10px;
+    box-sizing:border-box;
+    border: 2px solid silver;
+    border-radius: 40px;
+    transition: all .5s;
+}
+.items__up:hover, .item__low:hover {
+    border-color: #06a4a4;
+}
+.item {
+    background: mediumpurple;
+    width: 440px;
+    height: 220px;
+    border-radius: 15px;
+    margin: 10px;
+}
+.item__low {
+    display: flex;
+    column-gap: 40px;
+    justify-content: center;
+    margin-top: 130px;
+}
+.title__scroll {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 25px;
+    color: #0c0c3f;
+}
+.content__scroll {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 25px;
+    box-sizing: border-box;
+    margin-top: 40px;
+}
+.team__content {
+    width: 240px;
+    height: 150px;
+    background: mediumpurple;
+    border-radius: 15px;
+}
+.triangle__left {
+    border: 20px solid transparent;
+    border-right: 20px solid #0c0c3f;
+}
+.triangle__right {
+    border: 20px solid transparent;
+    border-left: 20px solid #0c0c3f;
+}
+.owner {
+    display: flex;
+    column-gap: 25px;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    border: 2px solid silver;
+    transition: all .5s;
+    padding: 10px;
+    border-radius: 40px;
+    margin-top: 100px;
+}
+.owner:hover {
+    border-color: #62911e;
+}
+.owner__text {
+    display: flex;
+    flex-direction: column;
+}
+.name__owner {
+    text-transform: uppercase;
+}
+.owner__round {
+    background: mediumpurple;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin: 25px;
+}
+.footer {
+    background: #0c0c3f;
+    height: 220px;
+}
+.soc-networks {
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+}
+.networks {
+    background: mediumpurple;
+    height: 50px;
+    width: 50px;
+    margin-top: 40px;
+    border-radius: 15px;
+}
+.contact {
+    display: flex;
+    column-gap: 30px;
+    justify-content: center;
+}
+.contact__item {
+    background: mediumpurple;
+    height: 5px;
+    width: 50px;
+    margin-top: 40px;
+    border-radius: 15px;
+}
